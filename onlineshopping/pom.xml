@@ -21,7 +21,13 @@
 			<version>${javaee.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
+		
+		<!-- link backend project -->
+		<dependency>
+			<groupId>net.psy</groupId>
+			<artifactId>backendshopping</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
